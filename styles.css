@@ -1,0 +1,109 @@
+/*Universal Selector*/
+
+* {
+    font-family: Monospace, Helvetica, Arial, sans-serif;
+}
+/*-----------------------*/
+
+/*Basic Selectors*/
+
+h1 {
+    Font-weight: 700;
+    Font-size: 30px; 
+}
+
+h2 {
+    Font-weight: 500;
+    Font-size: 20px; 
+}
+
+p {
+    Font-weight: 400;
+    Font-size: 16px;
+}
+
+.monospace {
+    font-family: Monospace;
+  }
+
+.helvetica {
+    font-family: Helvetica;
+}
+
+.arial {
+    font-family: arial;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+.normal {
+    font-style: normal;
+}
+
+.strong {
+    font-weight: 700;
+}
+
+.italic {
+    font-style: italic;
+}
+
+/*-----------------------*/
+
+/*Fonts Listing Style : No Spacing and no Dot*/
+ul.fonts {
+    padding: 0;
+    list-style-type: none;
+}
+
+/*Box Width for all Categorys*/
+div.Box {
+    width: 900px;
+    padding: 10px 20px;
+}
+
+/*Style of the Color Boxes*/
+div.colors {
+    display: table-cell;
+    width: 300px;
+    height: 200px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+/*Box1*/
+div.text-color {
+    background-color: #1B1B1B;  
+}
+
+/*Box2*/
+div.second-color {
+    background-color: #2C6969;    
+}
+
+/*Box3*/
+div.third-color {
+    background-color: #1F8481;    
+}
+
+/*Color of Text inside of the Color Boxes*/
+h2.white {
+    color: white;
+    font-size: 25px;
+}
+
+/*Headings of the Categorys*/
+h2.heading {
+    Font-weight: 500;
+    Font-size: 20px; 
+    background-color: #2C6969;
+    color: white;
+    padding: 5px 10px;
+}
+
+/*Font-Size of Font-Family Examples*/
+div.fonts {
+    font-size: 25px;
+}
